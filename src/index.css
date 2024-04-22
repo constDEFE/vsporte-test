@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	#root {
+		@apply min-h-screen bg-gradient-to-br from-sky-300 to-sky-700 pt-[10%];
+	}
+}
